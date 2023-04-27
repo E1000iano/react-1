@@ -12,7 +12,7 @@ const Navbar = () => {
                 <button className = 'botonbarra'>Cervezas</button>
             </div>
 
-            <CartWidget className = 'boronbarra'/>
+            <CartWidget/>
         </nav>
     )
 }

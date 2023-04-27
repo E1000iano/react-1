@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+}
+
+header .containerBrand{
+    border: 1px solid black;
+    width: 20%;
+    height: 100%;
+}
+
+header .containerList{
+    border: 1px solid black;
+    width: 50%;
+    height: 100%;
+}
+
+header .containerCart{
+    border: 1px solid black;
+    width: 50%;
+    height: 100%;
+}
+
+header .containerItemList{
+    border: 1px solid black;
+    width: 60%;
+    height: 100%;
+    display: flex;
+  }
+
+header .containerItemList ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+header .containerItemList ul li{
+   margin: 10px;
+   border: 1px solid red;
+  }
+
+
+header .containerCart {
+    border: 1px solid black;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    border: 1px solid green;
+}

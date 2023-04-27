@@ -5,10 +5,6 @@
     background-color: gold;
 }
 
-img{
-    width: 150px;
-    height: 170px;
-}
 
 .botonbarra {
     background-color: gold;
@@ -22,4 +18,9 @@ img{
     margin: 4px 2px;
     cursor: pointer;
 
+}
+
+img{
+    width: 50px;
+    height: 60px;
 }
